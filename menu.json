@@ -1,7 +1,10 @@
 {
-    "abgerufen_am": "2026-07-03T21:00:38.576931",
-    "datum": "3. Juli 2026",
-    "menue": [
+    "restaurant": "Bauernmarkt Wels",
+    "url": "http://www.bauernmarkt-wels.at/",
+    "updated": "2026-07-03T21:12:06.432187",
+    "menu_date": "Freitag, 3. Juli 2026",
+    "current": true,
+    "menu": [
         "Tomatensuppe",
         "Sommersalat mit Burrata & Tomaten",
         "Grillteller mit Kartoffelecken",
