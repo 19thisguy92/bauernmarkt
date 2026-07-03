@@ -98,9 +98,12 @@ for eintrag in menue:
 # --------------------------------------------------------
 
 daten = {
-    "abgerufen_am": datetime.now().isoformat(),
-    "datum": datum,
-    "menue": menue
+    "restaurant": "Bauernmarkt Wels",
+    "url": URL,
+    "updated": datetime.now().isoformat(),
+    "menu_date": f"Freitag, {datum}",
+    "current": True,
+    "menu": menue
 }
 
 with open("menu.json", "w", encoding="utf-8") as f:
@@ -111,5 +114,13 @@ with open("menu.json", "w", encoding="utf-8") as f:
         indent=4
     )
 
+with open("menu.txt", "w", encoding="utf-8") as f:
+    f.write("Bauernmarkt Wels\n\n")
+    f.write(f"Freitag, {datum}\n\n")
+
+    for eintrag in menue:
+        f.write(f"• {eintrag}\n")
+
 print()
 print("menu.json geschrieben.")
+print("menu.txt geschrieben.")
