@@ -1,11 +1,16 @@
 import json
 import re
 from datetime import datetime
-print("Systemzeit:", datetime.now())
+from zoneinfo import ZoneInfo
 
 import requests
 
 URL = "http://www.bauernmarkt-wels.at/"
+
+ZEITZONE = ZoneInfo("Europe/Vienna")
+JETZT = datetime.now(ZEITZONE)
+
+print("Systemzeit:", JETZT)
 
 print("Lade Homepage...")
 
@@ -101,7 +106,7 @@ for eintrag in menue:
 daten = {
     "restaurant": "Bauernmarkt Wels",
     "url": URL,
-    "updated": datetime.now().isoformat(),
+    "updated": JETZT.isoformat(),
     "menu_date": f"Freitag, {datum}",
     "current": True,
     "menu": menue
