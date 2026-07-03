@@ -1,0 +1,32 @@
+name: Bauernmarkt Wels Menü
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "55 7 * * 5"
+
+jobs:
+  menu:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python installieren
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: Menü auslesen
+        run: python menu.py
+
+      - name: Ergebnis speichern
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automatisches Update Bauernmarkt-Menü"
