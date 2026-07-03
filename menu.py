@@ -2,6 +2,8 @@ import json
 import re
 from datetime import datetime
 
+print("Systemzeit:", datetime.now())
+
 import requests
 
 URL = "http://www.bauernmarkt-wels.at/"
