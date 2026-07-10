@@ -1,13 +1,15 @@
 {
     "restaurant": "Bauernmarkt Wels",
     "url": "http://www.bauernmarkt-wels.at/",
-    "updated": "2026-07-03T23:25:31.671992+02:00",
-    "menu_date": "Freitag, 3. Juli 2026",
+    "updated": "2026-07-10T11:23:33.975843+02:00",
+    "menu_date": "Freitag, 10. Juli 2026",
     "current": true,
     "menu": [
-        "Tomatensuppe",
-        "Sommersalat mit Burrata & Tomaten",
-        "Grillteller mit Kartoffelecken",
-        "Wurstsalat"
+        "Frittatensuppe",
+        "Würstlgulasch",
+        "Salatteller mit Schinkenröllchen",
+        "gefüllt mit Farmersalat",
+        "Eierschwammerl mit Semmelknödel",
+        "Marillendessert im Glas"
     ]
 }
