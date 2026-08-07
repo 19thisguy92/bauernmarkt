@@ -1,15 +1,15 @@
 {
     "restaurant": "Bauernmarkt Wels",
     "url": "http://www.bauernmarkt-wels.at/",
-    "updated": "2026-07-31T17:48:38.992675+02:00",
-    "menu_date": "Freitag, 24. Juli 2026",
-    "current": false,
+    "updated": "2026-08-07T12:38:07.813417+02:00",
+    "menu_date": "Freitag, 7. August 2026",
+    "current": true,
     "menu": [
-        "Zwiebelsuppe",
-        "Chili con Carne",
-        "Salatteller mit Back-Camembert",
-        "Eierschwammerl mit Semmelknödel",
-        "Marillendessert im Glas",
+        "Kräuterrahmsuppe",
+        "Salatteller mit marinierten",
+        "Hähnchenstreifen (kalt)",
+        "Faschierte Laiberl mit Kartoffelsalat",
+        "Himbeerdessert im Glas",
         "Eiskaffee"
     ]
 }
