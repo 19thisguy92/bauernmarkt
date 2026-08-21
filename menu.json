@@ -1,15 +1,14 @@
 {
     "restaurant": "Bauernmarkt Wels",
     "url": "http://www.bauernmarkt-wels.at/",
-    "updated": "2026-08-14T10:56:03.317385+02:00",
-    "menu_date": "Freitag, 14. August 2026",
+    "updated": "2026-08-21T10:24:40.642065+02:00",
+    "menu_date": "Freitag, 21. August 2026",
     "current": true,
     "menu": [
-        "Speckknödelsuppe",
-        "Salatteller mit gefüllten",
-        "Raucherlachsröllchen und Thunfisch Aufstrich",
-        "Surschnitzel mit Kartoffelsalat",
-        "Italienischer Nudelsalat",
-        "Eiskaffee"
+        "Zwiebelsuppe",
+        "Kartoffelgulasch",
+        "Krautwickler mit Kartoffel und Soße",
+        "Bretteljause",
+        "Marillendessert im Glas"
     ]
 }
