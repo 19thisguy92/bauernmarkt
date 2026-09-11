@@ -1,14 +1,14 @@
 {
     "restaurant": "Bauernmarkt Wels",
     "url": "http://www.bauernmarkt-wels.at/",
-    "updated": "2026-09-04T14:19:40.031010+02:00",
-    "menu_date": "Freitag, 4. September 2026",
+    "updated": "2026-09-11T14:24:48.025624+02:00",
+    "menu_date": "Freitag, 11. September 2026",
     "current": true,
     "menu": [
-        "Fritattensuppe",
-        "Würstlgulasch",
-        "Backhändelsalat",
-        "Bretteljause",
-        "Eiskaffee"
+        "Kürbiscremesuppe",
+        "Chili con Carne",
+        "Fleckerlspeis mit Salat",
+        "Szegerdiner Gulasch mit Brot",
+        "Marillendessert im Glas"
     ]
 }
