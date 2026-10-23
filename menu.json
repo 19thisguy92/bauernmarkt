@@ -1,13 +1,13 @@
 {
     "restaurant": "Bauernmarkt Wels",
     "url": "http://www.bauernmarkt-wels.at/",
-    "updated": "2026-10-16T14:47:29.669033+02:00",
-    "menu_date": "Freitag, 16. Oktober 2026",
+    "updated": "2026-10-23T14:55:40.218989+02:00",
+    "menu_date": "Freitag, 23. Oktober 2026",
     "current": true,
     "menu": [
-        "Frittatensuppe",
-        "Würstlgulasch mit Brot",
-        "Tafelspitz mit Erdäpfel,",
-        "Gemüsestreifen und Semmelkren"
+        "Kaspressknödelsuppe",
+        "Gemüseeintopf (vegetarisch)",
+        "Krautwickler mit Erdäpfel",
+        "und Bratensoße"
     ]
 }
